@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Check if a port is open on a host
-ss -tulnp | grep LISTEN
+
+# Display listening ports with PID and program name
+sudo ss -tulnp | grep LISTEN
